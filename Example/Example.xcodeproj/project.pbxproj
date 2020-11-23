@@ -11,9 +11,10 @@
 		9E3991BB2520201A00C1CC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3991BA2520201A00C1CC95 /* SceneDelegate.swift */; };
 		9E3991BD2520201A00C1CC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3991BC2520201A00C1CC95 /* ViewController.swift */; };
 		9E3991C02520201A00C1CC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991BE2520201A00C1CC95 /* Main.storyboard */; };
-		9E3991C22520201C00C1CC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991C12520201C00C1CC95 /* Assets.xcassets */; };
 		9E3991C52520201C00C1CC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */; };
 		9E3991D12520206600C1CC95 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991D02520206500C1CC95 /* Podfile */; };
+		9EFEA56A256C113700C7A870 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEA569256C113700C7A870 /* Media.xcassets */; };
+		9EFEA56C256C118000C7A870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEA56B256C118000C7A870 /* Assets.xcassets */; };
 		E91B1589B52B78B62D574F01 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402A965C6894FDF96F528BDB /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,11 +26,12 @@
 		9E3991BA2520201A00C1CC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E3991BC2520201A00C1CC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E3991BF2520201A00C1CC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E3991C12520201C00C1CC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3991C42520201C00C1CC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3991C62520201C00C1CC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E3991CC2520204100C1CC95 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		9E3991D02520206500C1CC95 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFEA569256C113700C7A870 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		9EFEA56B256C118000C7A870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC0B2F0510DFCBC5A45914FB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,15 +76,16 @@
 		9E3991B72520201A00C1CC95 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				9EFEA56B256C118000C7A870 /* Assets.xcassets */,
 				9E3991D02520206500C1CC95 /* Podfile */,
 				9E3991B82520201A00C1CC95 /* AppDelegate.swift */,
 				9E3991BA2520201A00C1CC95 /* SceneDelegate.swift */,
 				9E3991BC2520201A00C1CC95 /* ViewController.swift */,
 				9E3991BE2520201A00C1CC95 /* Main.storyboard */,
-				9E3991C12520201C00C1CC95 /* Assets.xcassets */,
 				9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */,
 				9E3991C62520201C00C1CC95 /* Info.plist */,
 				9E3991CC2520204100C1CC95 /* Example-Bridging-Header.h */,
+				9EFEA569256C113700C7A870 /* Media.xcassets */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -158,9 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3991C52520201C00C1CC95 /* LaunchScreen.storyboard in Resources */,
-				9E3991C22520201C00C1CC95 /* Assets.xcassets in Resources */,
 				9E3991D12520206600C1CC95 /* Podfile in Resources */,
+				9EFEA56A256C113700C7A870 /* Media.xcassets in Resources */,
 				9E3991C02520201A00C1CC95 /* Main.storyboard in Resources */,
+				9EFEA56C256C118000C7A870 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

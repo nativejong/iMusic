@@ -15,8 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         music = iMusic(frame: CGRect.zero)
         self.view.addSubview(music!)
+        
     }
 
     override func viewWillLayoutSubviews() {
