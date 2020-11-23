@@ -1,0 +1,6 @@
+framework module iMusic {
+  umbrella header "iMusic.h"
+
+  export *
+  module * { export * }
+}
