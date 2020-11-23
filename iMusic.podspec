@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.homepage         = "https://github.com/artsy/Artsy-OSSUIFonts"
     s.license          = 'Code is MIT, then custom font licenses.'
     s.author           = { "Native Jon" => "native.jong@gmail.com" }
-    s.source           = { :git => "https://github.com/nativejong/iVideo.git", :tag => s.version }
+    s.source           = { :git => "https://github.com/nativejong/iMusic.git", :tag => s.version }
     s.social_media_url = 'https://twitter.com/artsy'
 
     s.platform     = :ios, '7.0'
