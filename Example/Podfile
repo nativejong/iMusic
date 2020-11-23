@@ -5,7 +5,7 @@ target 'Example' do
   platform :ios, '13.0'
   use_frameworks!
   
-    pod 'iMusic', :git => 'https://github.com/nativejong/iVideo.git'
+    pod 'iMusic', :git => 'https://github.com/nativejong/iMusic.git'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|

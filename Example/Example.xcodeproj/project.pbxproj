@@ -14,9 +14,6 @@
 		9E3991C22520201C00C1CC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991C12520201C00C1CC95 /* Assets.xcassets */; };
 		9E3991C52520201C00C1CC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */; };
 		9E3991D12520206600C1CC95 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9E3991D02520206500C1CC95 /* Podfile */; };
-		9ECB08DE2529ED2400CDDDD3 /* LogInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB08DD2529ED2400CDDDD3 /* LogInVC.m */; };
-		9ECB08E12529ED3E00CDDDD3 /* LogInVC+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB08E02529ED3E00CDDDD3 /* LogInVC+Model.m */; };
-		9ECB08E32529F08300CDDDD3 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB08E22529F08300CDDDD3 /* SignInVC.swift */; };
 		E91B1589B52B78B62D574F01 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402A965C6894FDF96F528BDB /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,12 +29,7 @@
 		9E3991C42520201C00C1CC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3991C62520201C00C1CC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E3991CC2520204100C1CC95 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
-		9E3991D02520206500C1CC95 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
-		9ECB08DC2529ED2400CDDDD3 /* LogInVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInVC.h; sourceTree = "<group>"; };
-		9ECB08DD2529ED2400CDDDD3 /* LogInVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInVC.m; sourceTree = "<group>"; };
-		9ECB08DF2529ED3E00CDDDD3 /* LogInVC+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogInVC+Model.h"; sourceTree = "<group>"; };
-		9ECB08E02529ED3E00CDDDD3 /* LogInVC+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LogInVC+Model.m"; sourceTree = "<group>"; };
-		9ECB08E22529F08300CDDDD3 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		9E3991D02520206500C1CC95 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC0B2F0510DFCBC5A45914FB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,11 +83,6 @@
 				9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */,
 				9E3991C62520201C00C1CC95 /* Info.plist */,
 				9E3991CC2520204100C1CC95 /* Example-Bridging-Header.h */,
-				9ECB08DC2529ED2400CDDDD3 /* LogInVC.h */,
-				9ECB08DD2529ED2400CDDDD3 /* LogInVC.m */,
-				9ECB08DF2529ED3E00CDDDD3 /* LogInVC+Model.h */,
-				9ECB08E02529ED3E00CDDDD3 /* LogInVC+Model.m */,
-				9ECB08E22529F08300CDDDD3 /* SignInVC.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -227,9 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3991BD2520201A00C1CC95 /* ViewController.swift in Sources */,
-				9ECB08E12529ED3E00CDDDD3 /* LogInVC+Model.m in Sources */,
-				9ECB08E32529F08300CDDDD3 /* SignInVC.swift in Sources */,
-				9ECB08DE2529ED2400CDDDD3 /* LogInVC.m in Sources */,
 				9E3991B92520201A00C1CC95 /* AppDelegate.swift in Sources */,
 				9E3991BB2520201A00C1CC95 /* SceneDelegate.swift in Sources */,
 			);
