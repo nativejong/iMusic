@@ -14,9 +14,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-        music = iMusic(frame: CGRect.zero)
+//        music = iMusic(frame: CGRect.zero)
+        music = iMusic(frame: CGRect.zero, video: true)
         self.view.addSubview(music!)
         
     }

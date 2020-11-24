@@ -7,24 +7,24 @@
 //
 
 import UIKit
+import iMusic
+
 
 class VideoViewController: UIViewController {
+    var music : iMusic?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.edgesForExtendedLayout = []
+        music = iMusic(frame: CGRect.zero, video: true)
+        self.view.addSubview(music!)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillLayoutSubviews() {
+        let w = self.view.frame.size.width;
+        let h = self.view.frame.size.height;
+        music?.frame = CGRect(x: w * 0.0, y: h * 0.05, width: w * 1.0, height: h * 0.95)
     }
-    */
 
 }

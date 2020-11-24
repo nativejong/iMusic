@@ -13,18 +13,25 @@ class MusicNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let vc = MusicViewController()
+        self.pushViewController(vc, animated: false)
+        
+        let im = self.resizeImage(image: UIImage(named: "notes")! )
+        
+        self.tabBarItem = UITabBarItem(title: "Music", image: im, tag: 0 )
+        
+        
     }
     
+    func resizeImage(image: UIImage) -> UIImage {
+        let newSize: CGSize = CGSize(width: 20,  height: 20 )
+        let rect = CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height)
 
-    /*
-    // MARK: - Navigation
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
+        image.draw(in: rect)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        return newImage!
     }
-    */
-
 }
