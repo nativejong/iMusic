@@ -17,6 +17,10 @@ FOUNDATION_EXPORT const unsigned char iMusicVersionString[];
 
 
 @interface iMusic : UIView
+
+- (id)initWithFrame:(CGRect)frame video:(BOOL)v;
+
 @property (nonatomic, retain) OMain *main;
+
 @end
 
