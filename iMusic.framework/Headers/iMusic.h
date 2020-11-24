@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "OMain.h"
-#import "OPage.h"
-//#import "iVideo.h"
 
 //! Project version number for iMusic.
 FOUNDATION_EXPORT double iMusicVersionNumber;
@@ -19,11 +17,6 @@ FOUNDATION_EXPORT const unsigned char iMusicVersionString[];
 
 
 @interface iMusic : UIView
-
 @property (nonatomic, retain) OMain *main;
-//@property (nonatomic, retain) iVideo *video;
-//@property (nonatomic, retain) OPage *countryPage;
-
-
 @end
 
