@@ -14,11 +14,11 @@ class Tabs: UITabBarController, UITabBarControllerDelegate{
         super.viewDidLoad()
 
         let music = MusicNavigationController()
-//        self.addChild(music)
-        
         let video = VideoNavigationController()
-//        self.addChild(video)
         
+        music.tabBarItem = UITabBarItem(title: "Music", image: self.resizeImage( s : "notes" ), tag: 0 )
+        video.tabBarItem = UITabBarItem(title: "Video", image: self.resizeImage( s : "video" ), tag: 1 )
+
         self.viewControllers = [music, video]
     }
     
@@ -27,5 +27,17 @@ class Tabs: UITabBarController, UITabBarControllerDelegate{
         print("tabBar")
     }
     
+    func resizeImage(s: String) -> UIImage {
+        let image = UIImage(named: s)
+        let newSize: CGSize = CGSize(width: 20,  height: 20 )
+        let rect = CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height)
+
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
+        image!.draw(in: rect)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+
+        return newImage!
+    }
 
 }

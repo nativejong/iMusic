@@ -86,21 +86,21 @@
 		9E3991B72520201A00C1CC95 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				9EFEA56B256C118000C7A870 /* Assets.xcassets */,
-				9E3991D02520206500C1CC95 /* Podfile */,
 				9E3991B82520201A00C1CC95 /* AppDelegate.swift */,
-				9E3991BA2520201A00C1CC95 /* SceneDelegate.swift */,
-				9E3991BC2520201A00C1CC95 /* ViewController.swift */,
-				9E3991BE2520201A00C1CC95 /* Main.storyboard */,
-				9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */,
-				9E3991C62520201C00C1CC95 /* Info.plist */,
+				9EFEA56B256C118000C7A870 /* Assets.xcassets */,
 				9E3991CC2520204100C1CC95 /* Example-Bridging-Header.h */,
+				9E3991C62520201C00C1CC95 /* Info.plist */,
+				9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */,
+				9E3991BE2520201A00C1CC95 /* Main.storyboard */,
 				9EFEA569256C113700C7A870 /* Media.xcassets */,
-				9E92E55C256D516B0073BFA6 /* Tabs.swift */,
 				9E92E55E256D526D0073BFA6 /* MusicNavigationController.swift */,
 				9E92E560256D52980073BFA6 /* MusicViewController.swift */,
-				9E92E562256D5C490073BFA6 /* VideoViewController.swift */,
+				9E3991D02520206500C1CC95 /* Podfile */,
+				9E3991BA2520201A00C1CC95 /* SceneDelegate.swift */,
+				9E92E55C256D516B0073BFA6 /* Tabs.swift */,
 				9E92E564256D5C760073BFA6 /* VideoNavigationController.swift */,
+				9E92E562256D5C490073BFA6 /* VideoViewController.swift */,
+				9E3991BC2520201A00C1CC95 /* ViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";

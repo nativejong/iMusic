@@ -20,11 +20,10 @@ class VideoViewController: UIViewController {
         self.view.addSubview(music!)
     }
     
-
     override func viewWillLayoutSubviews() {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
         music?.frame = CGRect(x: w * 0.0, y: h * 0.05, width: w * 1.0, height: h * 0.95)
     }
 
-}
+ }
