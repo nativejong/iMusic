@@ -1,0 +1,27 @@
+{
+  "name": "iMusic",
+  "version": "1.1.1",
+  "summary": "Native Jon",
+  "homepage": "https://github.com/artsy/Artsy-OSSUIFonts",
+  "license": "Code is MIT, then custom font licenses.",
+  "authors": {
+    "Native Jon": "native.jong@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nativejong/iMusic.git",
+    "tag": "1.1.1"
+  },
+  "social_media_url": "https://twitter.com/artsy",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "iMusic.framework/Headers/*.h",
+  "source_files": "iMusic.framework/Headers/*.h",
+  "vendored_frameworks": "iMusic.framework",
+  "frameworks": [
+    "UIKit",
+    "CoreText"
+  ],
+  "module_name": "iMusic"
+}

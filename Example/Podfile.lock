@@ -1,0 +1,21 @@
+PODS:
+  - iMusic (1.1.1)
+
+DEPENDENCIES:
+  - iMusic (from `https://github.com/nativejong/iMusic.git`)
+
+EXTERNAL SOURCES:
+  iMusic:
+    :git: https://github.com/nativejong/iMusic.git
+
+CHECKOUT OPTIONS:
+  iMusic:
+    :commit: 8605016c9db0d7c1900ba366d21a119ed72254ca
+    :git: https://github.com/nativejong/iMusic.git
+
+SPEC CHECKSUMS:
+  iMusic: 0a29e241191e13f23a467a63340638e725941f88
+
+PODFILE CHECKSUM: 923dde68f548dd9e75783ac7bd3251fb3b2fb6c4
+
+COCOAPODS: 1.9.3
