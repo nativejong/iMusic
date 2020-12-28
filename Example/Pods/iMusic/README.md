@@ -27,13 +27,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/images/login.png" alt="My cool logo" width="220" height="120"/>
+    <img src="/images/imusic.gif" alt="My cool logo" width="200" height="400"/>
   </a>
 
-  <h3 align="center">iLogin</h3>
+  <h3 align="center">iMusic</h3>
 
   <p align="center">
-     iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
+     iMusic is a quick and easy way to add a Login/Signup UX to your iOS app.
   </p>
 </p>
 
@@ -59,13 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
-<table  border="0" >
-  <tr>
-    <td>Login</td>
-    <td><img src="/images/login.png" width=220 height=120></td>
-  </tr>
- </table>
+iMusic is a quick and easy way to add a Login/Signup UX to your iOS app.
 
 
 ### Built With
@@ -90,7 +84,7 @@ Required software and how to install them.
 
 1. Add to Podfile
 ```sh
-    pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
+    pod 'iMusic', :git => 'https://github.com/nativejong/iMusic.git'
 ```
 2. Install this pod
 ```sh
@@ -104,7 +98,7 @@ Required software and how to install them.
 
 4. Import the library (header's file)
 ```sh
-    @import iLogin;
+    @import iMusic;
 ```
 
 5. Declare the library (header's file)

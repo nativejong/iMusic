@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, retain) UIImageView *img;
 @property (nonatomic, retain) UIButton *name;
-@property (nonatomic, retain) UIButton *line;
+//@property (nonatomic, retain) UIButton *line;
 - (void) putImage:(NSString*)s;
 
 @end
