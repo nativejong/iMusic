@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "iSeek.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface iVideo : UIView<AVAudioPlayerDelegate>
+@property (nonatomic, retain) iSeek *seek;
 
 @property (nonatomic, retain) UIButton *name;
 @property (nonatomic, retain) UIButton *dscr;
 @property (nonatomic, retain) UIButton *play;
 
-@property (nonatomic, retain) UIProgressView *progress;
 @property (nonatomic, retain) UIActivityIndicatorView *indicator;
 
 @property (nonatomic, strong) AVPlayerItem *playerItem;
