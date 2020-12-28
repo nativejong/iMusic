@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69F09D1C8ED835C09EE8F9E3467F032C /* PBXContainerItemProxy */ = {
+		6EB8E9FC0FCD74A1512B8D961DFC708B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,40 +35,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16DA186D32EB5FA99AFBE3CE9949EBDB /* iMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMusic.release.xcconfig; sourceTree = "<group>"; };
-		18C79F642937E6356FFE5C0C6FFE86C4 /* iEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iEncrypt.h; path = iMusic.framework/Headers/iEncrypt.h; sourceTree = "<group>"; };
-		19EDBA7F196C76131B169E016332883B /* OMenuCell+Network.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OMenuCell+Network.h"; path = "iMusic.framework/Headers/OMenuCell+Network.h"; sourceTree = "<group>"; };
+		016659494610AFDDF91C415017CA4835 /* CNotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNotify.h; path = iMusic.framework/Headers/CNotify.h; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22721140F1C5309A3250B782D66F9333 /* OMenuCell+Network.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OMenuCell+Network.h"; path = "iMusic.framework/Headers/OMenuCell+Network.h"; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B2A639880B495D596E933DD2FEC4CCE /* Tally.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tally.h; path = iMusic.framework/Headers/Tally.h; sourceTree = "<group>"; };
+		2F5D371B908B393094BEA7DD9E07C5C3 /* OMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMenu.h; path = iMusic.framework/Headers/OMenu.h; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		3E4DBA48A5A26E8F5CE5FF0A5F6E335C /* CPhotoLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPhotoLoad.h; path = iMusic.framework/Headers/CPhotoLoad.h; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46501F1B65E356F1F97E2A79A71534C0 /* CPhotoLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPhotoLoad.h; path = iMusic.framework/Headers/CPhotoLoad.h; sourceTree = "<group>"; };
-		49D95FB6A1A0C5C40932B9CD852647C1 /* iPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iPlay.h; path = iMusic.framework/Headers/iPlay.h; sourceTree = "<group>"; };
-		4A753AC29C5A62AEC22042A5298E57BA /* OMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMenu.h; path = iMusic.framework/Headers/OMenu.h; sourceTree = "<group>"; };
-		4EA765A3CA33D45686CC467612DD06E7 /* CNotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNotify.h; path = iMusic.framework/Headers/CNotify.h; sourceTree = "<group>"; };
-		6DF482076B5B465B2AFD3FC1C057319D /* iVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iVideo.h; path = iMusic.framework/Headers/iVideo.h; sourceTree = "<group>"; };
+		48EA86F7474DF81BF409CDBC7DDA7702 /* iEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iEncrypt.h; path = iMusic.framework/Headers/iEncrypt.h; sourceTree = "<group>"; };
+		536DE07BBF22BACEC00D9C34033E41B3 /* TallyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TallyCell.h; path = iMusic.framework/Headers/TallyCell.h; sourceTree = "<group>"; };
+		5C2578C476BE7F22464269F8453ED527 /* iMusic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iMusic.h; path = iMusic.framework/Headers/iMusic.h; sourceTree = "<group>"; };
+		63CA7272F1861C306A81F303E3C50270 /* iSeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iSeek.h; path = iMusic.framework/Headers/iSeek.h; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		7D79BF5F99FDC66011FBE622F360303B /* iMusic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iMusic.h; path = iMusic.framework/Headers/iMusic.h; sourceTree = "<group>"; };
-		8776A358A62B244FAAF80777CD96C7AC /* OPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPage.h; path = iMusic.framework/Headers/OPage.h; sourceTree = "<group>"; };
+		8AAF97FB553DBE3FA5C4B30EC432FEE7 /* iPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iPlay.h; path = iMusic.framework/Headers/iPlay.h; sourceTree = "<group>"; };
+		9BD89ABA8DC5B0C51AB1A3150908F56B /* OPage+Data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OPage+Data.h"; path = "iMusic.framework/Headers/OPage+Data.h"; sourceTree = "<group>"; };
+		9D8051D35A3CBA756D5ED956143419D7 /* OMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMenuCell.h; path = iMusic.framework/Headers/OMenuCell.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1EA374918CFB88A002406307232865B /* OPage+Data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OPage+Data.h"; path = "iMusic.framework/Headers/OPage+Data.h"; sourceTree = "<group>"; };
-		AB250375204A328E1A890BCF6AC157A4 /* OMain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMain.h; path = iMusic.framework/Headers/OMain.h; sourceTree = "<group>"; };
-		ADAA65ECE479EA5AB23D8CE0E841E9CF /* TallyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TallyCell.h; path = iMusic.framework/Headers/TallyCell.h; sourceTree = "<group>"; };
+		A64015A467B149E1B1360EEDDF572423 /* iMusic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMusic.framework; sourceTree = "<group>"; };
+		AEB8547FFE9902D0AC53433A8AF942B2 /* iNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iNetwork.h; path = iMusic.framework/Headers/iNetwork.h; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		B32969AB93BA9AB288ED9E8B6B06A62A /* OMain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMain.h; path = iMusic.framework/Headers/OMain.h; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BAACAB14F4598896668EAF9F306AF764 /* iMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMusic.debug.xcconfig; sourceTree = "<group>"; };
-		C1AD7957AA5AD850539346024FACA968 /* iNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iNetwork.h; path = iMusic.framework/Headers/iNetwork.h; sourceTree = "<group>"; };
+		C60E8EAB92C07C667B7348FA97A3118E /* iMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMusic.release.xcconfig; sourceTree = "<group>"; };
+		CF35254A5F4558714A3224332C197B4E /* OPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPage.h; path = iMusic.framework/Headers/OPage.h; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DC75531580191E8E35C71CE4EC9D71C7 /* Boot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Boot.h; path = iMusic.framework/Headers/Boot.h; sourceTree = "<group>"; };
-		DF81FA615BC37CF2B0D990CEF4181CC2 /* GetJS+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GetJS+Date.h"; path = "iMusic.framework/Headers/GetJS+Date.h"; sourceTree = "<group>"; };
-		E65ED2EE63F968075C7DDB5539EF13A2 /* iMusic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMusic.framework; sourceTree = "<group>"; };
-		E7703AAF07B180FE7F0903D2EDE00A4C /* GetJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetJS.h; path = iMusic.framework/Headers/GetJS.h; sourceTree = "<group>"; };
+		E3A7784C5838ECDAF4EBE6299C58DDB0 /* GetJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetJS.h; path = iMusic.framework/Headers/GetJS.h; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9500A56EC9391617EA393B5C7F3059C /* iSeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iSeek.h; path = iMusic.framework/Headers/iSeek.h; sourceTree = "<group>"; };
-		FD1F312790F22B0A6B469E1993E35054 /* OMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMenuCell.h; path = iMusic.framework/Headers/OMenuCell.h; sourceTree = "<group>"; };
+		ED200ACF7056F559BD47A5348F2DCA2E /* iMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iMusic.debug.xcconfig; sourceTree = "<group>"; };
+		EE1D58C51D78BCC727F12FAD9D8B40F8 /* GetJS+Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GetJS+Date.h"; path = "iMusic.framework/Headers/GetJS+Date.h"; sourceTree = "<group>"; };
+		EE436270BB5560DA396C012C01BB379F /* iVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iVideo.h; path = iMusic.framework/Headers/iVideo.h; sourceTree = "<group>"; };
+		FAD9C0C7EF4082C419474EBD11C08F91 /* Tally.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tally.h; path = iMusic.framework/Headers/Tally.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,20 +82,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2966E6643E13B56E24503071B909A6F8 /* Frameworks */ = {
+		41BB9CB4A0F3ED91AE1AAAC67053DD26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E65ED2EE63F968075C7DDB5539EF13A2 /* iMusic.framework */,
+				815AC2426227278FE0DEA4C255DF54CE /* iMusic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D3509FE29DC57CC305991C4BD45BE5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED200ACF7056F559BD47A5348F2DCA2E /* iMusic.debug.xcconfig */,
+				C60E8EAB92C07C667B7348FA97A3118E /* iMusic.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iMusic";
+			sourceTree = "<group>";
+		};
+		6B2AE8C40705D1B2611BCA098D9F02A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64015A467B149E1B1360EEDDF572423 /* iMusic.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4DC343BCAF5C9FEC62CFEA94CA5A83C1 /* Pods */ = {
+		815AC2426227278FE0DEA4C255DF54CE /* iMusic */ = {
 			isa = PBXGroup;
 			children = (
-				C3436546778407B38B97340416B0E189 /* iMusic */,
+				016659494610AFDDF91C415017CA4835 /* CNotify.h */,
+				3E4DBA48A5A26E8F5CE5FF0A5F6E335C /* CPhotoLoad.h */,
+				E3A7784C5838ECDAF4EBE6299C58DDB0 /* GetJS.h */,
+				EE1D58C51D78BCC727F12FAD9D8B40F8 /* GetJS+Date.h */,
+				48EA86F7474DF81BF409CDBC7DDA7702 /* iEncrypt.h */,
+				5C2578C476BE7F22464269F8453ED527 /* iMusic.h */,
+				AEB8547FFE9902D0AC53433A8AF942B2 /* iNetwork.h */,
+				8AAF97FB553DBE3FA5C4B30EC432FEE7 /* iPlay.h */,
+				63CA7272F1861C306A81F303E3C50270 /* iSeek.h */,
+				EE436270BB5560DA396C012C01BB379F /* iVideo.h */,
+				B32969AB93BA9AB288ED9E8B6B06A62A /* OMain.h */,
+				2F5D371B908B393094BEA7DD9E07C5C3 /* OMenu.h */,
+				9D8051D35A3CBA756D5ED956143419D7 /* OMenuCell.h */,
+				22721140F1C5309A3250B782D66F9333 /* OMenuCell+Network.h */,
+				CF35254A5F4558714A3224332C197B4E /* OPage.h */,
+				9BD89ABA8DC5B0C51AB1A3150908F56B /* OPage+Data.h */,
+				FAD9C0C7EF4082C419474EBD11C08F91 /* Tally.h */,
+				536DE07BBF22BACEC00D9C34033E41B3 /* TallyCell.h */,
+				6B2AE8C40705D1B2611BCA098D9F02A7 /* Frameworks */,
+				5D3509FE29DC57CC305991C4BD45BE5C /* Support Files */,
 			);
-			name = Pods;
+			name = iMusic;
+			path = iMusic;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -116,51 +153,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		B2369374F97BCC1684FB29BDE70DBB5C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAACAB14F4598896668EAF9F306AF764 /* iMusic.debug.xcconfig */,
-				16DA186D32EB5FA99AFBE3CE9949EBDB /* iMusic.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iMusic";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C3436546778407B38B97340416B0E189 /* iMusic */ = {
-			isa = PBXGroup;
-			children = (
-				DC75531580191E8E35C71CE4EC9D71C7 /* Boot.h */,
-				4EA765A3CA33D45686CC467612DD06E7 /* CNotify.h */,
-				46501F1B65E356F1F97E2A79A71534C0 /* CPhotoLoad.h */,
-				E7703AAF07B180FE7F0903D2EDE00A4C /* GetJS.h */,
-				DF81FA615BC37CF2B0D990CEF4181CC2 /* GetJS+Date.h */,
-				18C79F642937E6356FFE5C0C6FFE86C4 /* iEncrypt.h */,
-				7D79BF5F99FDC66011FBE622F360303B /* iMusic.h */,
-				C1AD7957AA5AD850539346024FACA968 /* iNetwork.h */,
-				49D95FB6A1A0C5C40932B9CD852647C1 /* iPlay.h */,
-				F9500A56EC9391617EA393B5C7F3059C /* iSeek.h */,
-				6DF482076B5B465B2AFD3FC1C057319D /* iVideo.h */,
-				AB250375204A328E1A890BCF6AC157A4 /* OMain.h */,
-				4A753AC29C5A62AEC22042A5298E57BA /* OMenu.h */,
-				FD1F312790F22B0A6B469E1993E35054 /* OMenuCell.h */,
-				19EDBA7F196C76131B169E016332883B /* OMenuCell+Network.h */,
-				8776A358A62B244FAAF80777CD96C7AC /* OPage.h */,
-				A1EA374918CFB88A002406307232865B /* OPage+Data.h */,
-				2B2A639880B495D596E933DD2FEC4CCE /* Tally.h */,
-				ADAA65ECE479EA5AB23D8CE0E841E9CF /* TallyCell.h */,
-				2966E6643E13B56E24503071B909A6F8 /* Frameworks */,
-				B2369374F97BCC1684FB29BDE70DBB5C /* Support Files */,
-			);
-			name = iMusic;
-			path = iMusic;
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -176,7 +174,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4DC343BCAF5C9FEC62CFEA94CA5A83C1 /* Pods */,
+				41BB9CB4A0F3ED91AE1AAAC67053DD26 /* Pods */,
 				F3FF89D6E7299BC19CC5D532AB71AAAA /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -224,7 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CD7DF396B020ADDEB2724AA911C7CBC9 /* PBXTargetDependency */,
+				AB02413435981AEF28A381F0AD3ECD50 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -281,11 +279,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD7DF396B020ADDEB2724AA911C7CBC9 /* PBXTargetDependency */ = {
+		AB02413435981AEF28A381F0AD3ECD50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iMusic;
 			target = D9D3B3BF7CD0FD4710D3628D2F21B512 /* iMusic */;
-			targetProxy = 69F09D1C8ED835C09EE8F9E3467F032C /* PBXContainerItemProxy */;
+			targetProxy = 6EB8E9FC0FCD74A1512B8D961DFC708B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,7 +350,7 @@
 		};
 		678C25E6647A5ADFF83EFE029FF29B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAACAB14F4598896668EAF9F306AF764 /* iMusic.debug.xcconfig */;
+			baseConfigurationReference = ED200ACF7056F559BD47A5348F2DCA2E /* iMusic.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$ARCHS_STANDARD_64_BIT";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -369,7 +367,7 @@
 		};
 		75714FE7880E90881287185FA00BC4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16DA186D32EB5FA99AFBE3CE9949EBDB /* iMusic.release.xcconfig */;
+			baseConfigurationReference = C60E8EAB92C07C667B7348FA97A3118E /* iMusic.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$ARCHS_STANDARD_64_BIT";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

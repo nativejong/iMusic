@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *myURL;
 - (void) putMusic:(NSString *) tk cback:(void(^)(NSMutableDictionary *list))lx;
 
+- (void) stopMusic;
 
 @property Float64 duration;
 

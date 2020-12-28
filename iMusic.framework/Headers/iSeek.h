@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)moveVal:(CGFloat)v;
 
+- (void) stopMusic;
 
 @end
 

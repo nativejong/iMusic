@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   iMusic:
-    :commit: 02230baddde8466a6185804b33ce940f64490dcd
+    :commit: 0e87cb4c0f7aeb3059f0e923d98567f442a37de5
     :git: https://github.com/nativejong/iMusic.git
 
 SPEC CHECKSUMS:
